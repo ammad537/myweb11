@@ -1,0 +1,171 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.navbar {
+    background-color: rgba(219, 45, 45, 0.8);
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #333;
+    color: #9d2222;
+}
+
+/* Content Section */
+.content-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #b82323;
+color: black;
+}
+
+.content-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: black;
+}
+
+.icon-item {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    background-color: #333;
+    color: #100d0d;
+    padding: 60px;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.portfolio-section p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.portfolio-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 8px;
+    color: black;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #b42828;
+color: blue;
+}
+
+.testimonial-section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Recent Work Section */
+.recent-work-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #c02d2d;
+}
+
+.recent-work-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.work-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-item {
+    background-color: pink;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}

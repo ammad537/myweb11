@@ -1,0 +1,191 @@
+body {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.above {
+    border: 2cm;
+    border-color: black;
+    background-image: url("https://img.freepik.com/premium-photo/marble-ink-abstract-art-from-exemplary-original-painting-abstract-background_31965-645379.jpg?semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    /* width: 100%; */
+    /* height: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.head{
+    .navbar {
+        position: fixed;    
+        top: 5px;             /* Positions the navbar at the top of the viewport */
+        left: 5px;            /* Aligns it to the left side */
+        width: 100%;        /* Makes it span the full width of the page */
+        z-index: 1000;      /* Ensures it appears above other elements */
+        background-color: #fff;  /* Optional: background color */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    }
+}
+
+.head li {
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    row-gap: 4px;
+    gap: 50px;
+    list-style: none;
+    /* text-decoration: none; */
+}
+.T{
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid gray;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.local {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.Sec1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+
+}
+
+.Sec1 h2 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.Sec1 p {
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+/* Icons  */
+.icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+.icon-setting {
+    /* padding: 0px 0px 20px 20px; */
+    text-align: center;
+}
+
+.aa {
+    margin: 0 0 0 15px;
+}
+
+
+/* Section  */
+
+.section-design {
+    margin-top: 30px;
+    background-color: gray;
+    padding: 15px;
+    display: flex;
+    height: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    text-align: justify;
+}
+
+.section-design h2 {
+    text-align: center;
+}
+
+.sub-1 {
+    text-align: justify;
+    padding-right: 20px;
+
+    /* background-color: red; */
+    color: white;
+    width: 70%;
+}
+
+.sub-1 P {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.sub-2 {
+    /* background-color: #121fdc; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.logo-2 img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.section-design .sub-1 .BT {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BT {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.BT:hover {
+    background-color: gray;
+    transition: 2000ms;
+}
+
+/* section  */
+
+.sec3 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 4px;
+text-align: center;
+}

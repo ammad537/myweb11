@@ -1,0 +1,107 @@
+Html:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>E commerce website</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <h1>Logo</h1>
+                <ul>
+                    <li> <a href="#"> Home</a></li>
+                    <li> <a href="#"> Shop</a></li>
+                    <li> <a href="#"> Contact Us</a> </li>
+                </ul>
+            </nav>
+        </header>
+    </main>
+</body>
+
+</html>
+`
+
+style.css:
+`
+/* primary color: 10%
+secondary-color: 30
+###-color: 60 */
+
+/* https://colorhunt.co/ */
+
+/* primay-color: #ec7f13  */
+
+/* section vise chlna  */
+/* Free pics: 
+https://unsplash.com/
+https://www.pexels.com/
+https://pixabay.com/
+*/
+
+
+/* reset CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+}
+
+
+/* select by tag  */
+main {
+    max-width: 1024px;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+/* navbar styling  */
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 1rem 0;
+}
+
+nav h1 {
+    color: #ec7f13;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #ec7f13;
+    font-weight: 500;
+    text-decoration: underline;
+}

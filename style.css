@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+
+}
+
+.page-1 {
+    background: url("https://media.istockphoto.com/id/2149715086/photo/pared-rocosa-de-una-monta%C3%B1a-con-reflejos-de-las-ultimas-luces-del-ocaso-por-la-tarde.jpg?s=612x612&w=0&k=20&c=AOCRW3fh-e0j3AHYLOFo040zUF9RSh7t-HRkprdWbp4=") no-repeat center center/cover;
+    color: white;
+    padding: 180px 0px;
+    text-align: center;
+
+}
+
+.page-1 h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    word-spacing: 4rem;
+    word-spacing: 5rem;
+
+
+}
+
+.page-1 p {
+    margin: 10px;
+}
+
+/* navbar  */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 0;
+    position: relative;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 40px;
+}
+
+
+.logo {
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+    text-decoration: none;
+
+}
+
+
+a:hover {
+    cursor: pointer;
+    color: blue;
+    transition: 1.5s;
+    text-decoration: underline;
+}
+
+/* section 1  */
+
+.Sec1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+
+}
+
+.Sec1 h2 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.Sec1 p {
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+/* Icons  */
+.icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+.icon-setting {
+    /* padding: 0px 0px 20px 20px; */
+    text-align: center;
+}
+
+.aa {
+    margin: 0 0 0 15px;
+}
+
+
+/* Section  */
+
+.section-design {
+    margin-top: 30px;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    height: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    text-align: justify;
+}
+
+.section-design h2 {
+    text-align: center;
+}
+
+.sub-1 {
+    text-align: justify;
+    padding-right: 20px;
+
+    /* background-color: red; */
+    color: white;
+    width: 70%;
+}
+
+.sub-1 P {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.sub-2 {
+    /* background-color: #121fdc; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.logo-2 img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.section-design .sub-1 .BT {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BT {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.BT:hover {
+    background-color: blue;
+    transition: 2000ms;
+}
+
+/* section  */
+
+.sec3 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 4px;
+text-align: center;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .img {
+            background-image: url('https://scontent.fisb29-1.fna.fbcdn.net/v/t39.30808-6/352182463_643544367793924_452358346591292496_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEe2fZCsX5ziigpT1xoSJxc0BrcJm8iCvDQGtwmbyIK8P-NdWOdvW09x9a6VGtHDndQbogkzOBwrV3nlfwn752N&_nc_ohc=s9UERyL5Oh4Q7kNvgEduPpj&_nc_ht=scontent.fisb29-1.fna&_nc_gid=AjzSPdkHB7sO033yrnKJWRF&oh=00_AYDlOsc72TPQ3N64XeonrXP2WR2-SE_OesdXE-G66jszbQ&oe=670D641A');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            /* border: 2px solid red; */
+            height: 200vh;
+            background-attachment: fixed;
+        }
+
+        .box1 {
+            /* border: 2px solid red; */
+            display: inline;
+        }
+
+        .border {
+            /* border: 2px solid red; */
+            padding: 4px;
+        }
+
+        .right {
+            width: 28%;
+            float: right;
+            background-color: black;
+            color: white;
+            opacity: .9;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 60px;
+        }
+
+        .left {
+            float: left;
+            width: 60%;
+            margin-top: 60px;
+        }
+
+        .h-color1 {
+            color: white;
+        }
+
+        .h-color2 {
+            color: purple;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 8px;
+            outline: none;
+            border: 2px solid purple;
+            background-color: purple;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .login-form h2 {
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .login-form button {
+            background-color: purple;
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .login-form button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img">
+        <div class="left border">
+            <h1 class="h-color1">muhammad</h1>
+            <h1 class="h-color2">Ali</h1>
+            <h1 class="h-color1">mirza</h1>
+            <p class="h-color1">Mara nabii sa ha he koi nai baba ta sha hi koi nai</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="right border">
+            <div class="login-form">
+                <h2><button>Login</button></h2>
+                <form action="/submit-login" method="POST">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa obcaecati officiis nesciunt voluptates nihil
+        suscipit a commodi recusandae quaerat consequuntur magni vel, beatae laborum, fugiat quam deleniti dicta
+        voluptas et!</div>
+
+</body>
+
+</html>
